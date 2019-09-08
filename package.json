@@ -1,0 +1,26 @@
+{
+  "name": "mycmd",
+  "version": "1.0.0",
+  "description": "Command line app to save / list / search Unix commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "semistandard",
+    "fix": "semistandard --fix"
+  },
+  "author": "Damien Le Dantec <damien-le-dantec@hotmail.fr>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "nodemon": "^1.19.2",
+    "semistandard": "^14.1.0"
+  },
+  "semistandard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "commander": "^3.0.1"
+  }
+}
